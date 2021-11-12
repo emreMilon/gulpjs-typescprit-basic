@@ -23,3 +23,8 @@ commit #5
 Uglify
  to check that bundle.js does get minified into an unreadable mess:
 gulp && cat dist/bundle.js
+
+commit #6
+Babelify
+
+gulp
