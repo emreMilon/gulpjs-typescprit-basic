@@ -1,5 +1,4 @@
-const hello = (compiler: String) => {
-    console.log(`Hello from ${compiler}`)
-}
+import {sayHello} from "./greet"
 
-hello("Typescript-Gulp")
+
+console.log(sayHello("Typescript Gulp!"))
