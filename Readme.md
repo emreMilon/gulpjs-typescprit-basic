@@ -6,3 +6,8 @@ gulp && node dist/main.js => The program should print “Hello from TypeScript-G
 commit #2
 add modules to the code
 gulp && node dist/main.js => The program should print “Hello from TypeScript-Gullp“.
+
+commit #3
+Browserify
+
+gulp and open dist/index.html in a browser 

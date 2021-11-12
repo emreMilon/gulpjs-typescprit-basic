@@ -1,4 +1,9 @@
 import {sayHello} from "./greet"
 
 
-console.log(sayHello("Typescript Gulp!"))
+const showHello = (divName: string, name:string) => {
+    const elt = document.getElementById(divName);
+    elt.innerText = sayHello(name)
+}
+
+showHello("greeting", "Typescript")
