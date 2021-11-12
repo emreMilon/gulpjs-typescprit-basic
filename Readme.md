@@ -17,3 +17,9 @@ commit #4
 Watchify
 
 gulp and open dist/index.html in a browser  and change your code in .ts files
+
+
+commit #5 
+Uglify
+ to check that bundle.js does get minified into an unreadable mess:
+gulp && cat dist/bundle.js
