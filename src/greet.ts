@@ -1,4 +1,5 @@
 export const sayHello = (name: string) => {
-    return `Hello from ${name}`
+    console.log(name)
+    return `Hello from ${name} !!!`
 }
 

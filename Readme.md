@@ -11,3 +11,9 @@ commit #3
 Browserify
 
 gulp and open dist/index.html in a browser 
+
+
+commit #4
+Watchify
+
+gulp and open dist/index.html in a browser  and change your code in .ts files
